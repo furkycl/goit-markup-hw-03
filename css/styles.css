@@ -1,4 +1,4 @@
-/* Main Elements */
+/* Global Styles */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -6,29 +6,26 @@ body {
 }
 
 .section {
-  padding: 120px 0px;
-}
-
-.navbar {
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
-  justify-content: space-between;
-  padding: 24px 0px;
-  align-items: center;
-}
-
-.navbar-brand-list {
-  display: flex;
-  align-items: center;
+  width: 100%;
 }
 
 .container {
+  margin: 0 auto;
+  display: block;
   padding: 0px 156px;
-  width: 1158px;
+  width: 1440px;
 }
-/* MAIN ELEMENTS FINISH */
 
-.page-text-logo {
+/* Header Section Styles */
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.logo {
   font-family: "Raleway";
   font-size: 18px;
   color: #2e2f42;
@@ -39,11 +36,18 @@ body {
   text-decoration: none;
 }
 
-.page-text-logo-web {
+.logo-web {
   color: #4d5ae5;
 }
 
-/* CSS FOR NAVBAR */
+.menu {
+  margin-left: -400px;
+}
+
+.address {
+  display: flex;
+  gap: 40px;
+}
 
 .navbar-list {
   display: flex;
@@ -80,9 +84,11 @@ body {
   color: #404bbf;
 }
 
-/* CSS FOR NAVBAR FINISH*/
+/* Header Section Styles End */
 
-/* CSS FOR MAIN SECTION */
+/* Main Section Styles */
+
+/* Effective Solutions Part Styles */
 
 h1 {
   font-weight: 700;
@@ -94,10 +100,9 @@ h1 {
 
 .container-slogan {
   background-color: #2e2f42;
-}
-
-.section-slogan {
   text-align: center;
+  align-content: center;
+  height: 600px;
 }
 
 .slogan-button {
@@ -116,6 +121,10 @@ h1 {
   cursor: pointer;
   background-color: #404bbf;
 }
+
+/* Effective Solutions Part Styles End */
+
+/* Features Part Styles */
 
 .features-list {
   display: flex;
@@ -136,8 +145,14 @@ h1 {
   color: #434455;
 }
 
+/* Features Part Styles End */
+
+/* Our Team Part Styles */
+
 .container-team {
   background-color: #f4f4fd;
+  height: 732px;
+  align-content: center;
 }
 
 .team-header {
@@ -150,7 +165,6 @@ h1 {
 
 .ourteam-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
   gap: 24px;
@@ -180,6 +194,10 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Our Team Part Styles End */
+
+/* Our Portfolio Styles */
 
 .portfolio-header {
   text-align: center;
@@ -222,21 +240,30 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-/* CSS FOR MAIN FINISH */
+/* Our Portfolio Styles End */
 
-/* CSS FOR FOOTER */
+/* Main Section Styles End */
 
-.footer {
+/* Footer Section Styles */
+
+.container-footer {
+  align-content: center;
+  background-color: #2e2f42;
   width: 100%;
   height: 312px;
 }
 
-.container-footer {
-  background-color: #2e2f42;
-}
-
-footer .page-text-logo {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 21px;
+  letter-spacing: 3%;
   color: #f4f4fd;
+}
+.footer-logo-web {
+  color: #4d5ae5;
 }
 
 .footer-text {
@@ -244,3 +271,5 @@ footer .page-text-logo {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/* Footer Section Styles End */
