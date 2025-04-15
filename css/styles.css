@@ -133,6 +133,8 @@ h1 {
   display: flex;
   gap: 24px;
   list-style: none;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .features-header {
@@ -206,6 +208,7 @@ h1 {
 /* Our Portfolio Styles */
 
 .portfolio-header {
+  margin-top: 120px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -221,6 +224,7 @@ h1 {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .portfolio-card-content {
@@ -232,7 +236,7 @@ h1 {
 
 .portfolio-images {
   width: 360px;
-  height: 360px;
+  height: 300px;
 }
 
 .portfolio-card-header {
